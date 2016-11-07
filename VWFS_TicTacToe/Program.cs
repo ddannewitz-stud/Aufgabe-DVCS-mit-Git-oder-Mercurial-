@@ -1,15 +1,23 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
+﻿// <copyright file="Program.cs" company="/">Daniel Dannewitz</copyright>
+// <author>Daniel Dannewitz</author>
 namespace VWFS_TicTacToe
 {
-    class Program
+    /// <summary>
+    /// Application entry point.
+    /// Serves as a dependency injector.
+    /// </summary>
+    public class Program
     {
-        static void Main(string[] args)
+        /// <summary>
+        /// Starting point.
+        /// </summary>
+        /// <param name="args">not used.</param>
+        public static void Main(string[] args)
         {
+            Board gameBoard = new Board();
+            UserInteractor interactor = new UserInteractor();
+            GameLogic game = new GameLogic(gameBoard, interactor);
+            game.StartGame();
         }
     }
 }
