@@ -1,6 +1,6 @@
 ﻿// <copyright file="Program.cs" company="/">Daniel Dannewitz</copyright>
 // <author>Daniel Dannewitz</author>
-namespace VWFS_TicTacToe
+namespace VWS_TicTacToe
 {
     /// <summary>
     /// Application entry point.

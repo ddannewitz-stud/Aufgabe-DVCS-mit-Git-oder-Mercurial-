@@ -1,6 +1,6 @@
 ﻿// <copyright file="IBoard.cs" company="/">Daniel Dannewitz</copyright>
 // <author>Daniel Dannewitz</author>
-namespace VWFS_TicTacToe
+namespace VWS_TicTacToe
 {
     /// <summary>
     /// Interface definition for boards.

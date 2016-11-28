@@ -1,6 +1,6 @@
 ﻿// <copyright file="Board.cs" company="/">Daniel Dannewitz</copyright>
 // <author>Daniel Dannewitz</author>
-namespace VWFS_TicTacToe
+namespace VWS_TicTacToe
 {
     using System.Linq;
 
